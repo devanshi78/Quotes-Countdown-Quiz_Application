@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stop Watch</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center align-items-center vh-100">
+      <div class="col-md-6">
+        <div class="card text-center p-4">
+          <h2 id="question">Question goes here</h2>
+
+          <button class="btn btn-secondary my-2" onclick="check(0)" id="btn0"></button>
+          <button class="btn btn-secondary my-2" onclick="check(1)" id="btn1"></button>
+          <button class="btn btn-secondary my-2" onclick="check(2)" id="btn2"></button>
+          <button class="btn btn-secondary my-2" onclick="check(3)" id="btn3"></button>
+
+          <p id="result" class="mt-3 fw-bold"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
